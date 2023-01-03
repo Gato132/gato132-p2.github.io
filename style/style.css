@@ -16,7 +16,7 @@ section {
     margin: 0 auto;
 }
 
-.conteiner {
+.conteiner_one {
     background-image: url(/images/image-product-desktop.jpg);
     min-width: 278px;
     background-size: cover;
@@ -31,9 +31,6 @@ section {
     border-bottom-right-radius: 0.7rem;
     
     
-}
-br {
-    height: 2px;
 }
 p, h1, button {
     font-size: 14px;
@@ -73,14 +70,13 @@ p, h1, button {
     text-decoration: line-through;
 }
 
-.color {
+.colur {
     color: hsl(228, 12%, 48%);
 }
 
 .btn {
     transition: all 0.3s ease;
     cursor: pointer;
-    
     background-color: hsl(158, 36%, 37%);
     color: white;
     border: 0;
